@@ -25,6 +25,7 @@ sha256sum --check checksum
 tar xzf "$target"
 
 files=(
+  "README.md"
   "go"
   "etc/settings"
 )
